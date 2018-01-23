@@ -6,3 +6,4 @@ class ReferencePostComment < ActiveRecord::Migration[5.1]
   	end
   end
 end
+	
