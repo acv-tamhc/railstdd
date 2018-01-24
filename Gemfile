@@ -42,11 +42,12 @@ group :development, :test do
   gem 'selenium-webdriver'
 end
 
-group :test do 
+group :test do
   gem 'rspec-rails'
   gem 'shoulda-matchers'
   gem 'rails-controller-testing'
   gem 'capybara', '~> 2.13'
+  gem 'factory_girl_rails', '~> 4.0'
 end
 group :development do
   # Access an IRB console on exception pages or by using <%= console %> anywhere in the code.

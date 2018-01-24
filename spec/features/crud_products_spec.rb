@@ -1,6 +1,6 @@
 require 'rails_helper'
 
-describe 'User can CRUD products', type: :feature do 
+describe 'User can CRUD products', type: :feature do
 	it 'can create a products' do
 		visit 'products/new'
 		expect(page).to have_link 'Create a product'
