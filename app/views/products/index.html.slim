@@ -1,0 +1,21 @@
+.page-content-header
+	.list_item
+		.item
+			== link_to('Manage', products_path)
+		.item 
+			== link_to('Manage trash', products_path)
+		.item
+			== link_to('Create product', new_product_path)
+.page-table-content
+	.page-table-title
+		span
+			| Manage product
+		table.table-content.table
+			tr
+				th title
+				th description
+				th country
+				th price
+				th published
+				th category
+				th action
