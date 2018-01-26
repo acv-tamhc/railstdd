@@ -1,6 +1,7 @@
 require 'rails_helper'
 
 describe 'User can CRUD products', type: :feature do
+	# let(:product)
 	it 'can create a products' do
 		visit 'products/new'
 		expect(page).to have_link 'Create a product'
@@ -9,5 +10,9 @@ describe 'User can CRUD products', type: :feature do
 		fill_in 'Title', with: 'jQuery book'
 		click_on 'Submit'
 		expect(page).to have_content 'jQuery book'
+	end
+
+	it "can be create products" do
+
 	end
 end
