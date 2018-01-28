@@ -86,9 +86,12 @@ GEM
       railties (>= 3.2, < 5.2)
     globalid (0.4.1)
       activesupport (>= 4.2.0)
+<<<<<<< HEAD
     haml (5.0.4)
       temple (>= 0.8.0)
       tilt
+=======
+>>>>>>> 7e5a8d5e09942a99f9b0c92305ecebbeca81debf
     i18n (0.9.3)
       concurrent-ruby (~> 1.0)
     jbuilder (2.7.0)

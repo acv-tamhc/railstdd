@@ -10,6 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
+<<<<<<< HEAD
 ActiveRecord::Schema.define(version: 20180126085541) do
 
   create_table "admins", force: :cascade do |t|
@@ -28,6 +29,9 @@ ActiveRecord::Schema.define(version: 20180126085541) do
     t.index ["email"], name: "index_admins_on_email", unique: true
     t.index ["reset_password_token"], name: "index_admins_on_reset_password_token", unique: true
   end
+=======
+ActiveRecord::Schema.define(version: 20180123040940) do
+>>>>>>> 7e5a8d5e09942a99f9b0c92305ecebbeca81debf
 
   create_table "categories", force: :cascade do |t|
     t.string "title"
@@ -76,10 +80,13 @@ ActiveRecord::Schema.define(version: 20180126085541) do
     t.text "description"
     t.float "price"
     t.integer "category_id"
+<<<<<<< HEAD
     t.string "avatar_file_name"
     t.string "avatar_content_type"
     t.integer "avatar_file_size"
     t.datetime "avatar_updated_at"
+=======
+>>>>>>> 7e5a8d5e09942a99f9b0c92305ecebbeca81debf
     t.index ["category_id"], name: "index_products_on_category_id"
   end
 
