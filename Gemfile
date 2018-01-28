@@ -5,11 +5,6 @@ git_source(:github) do |repo_name|
   "https://github.com/#{repo_name}.git"
 end
 
-<<<<<<< HEAD
-=======
-gem 'slim'
-gem 'simple_form'
->>>>>>> 7e5a8d5e09942a99f9b0c92305ecebbeca81debf
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.1.4'
 # Use sqlite3 as the database for Active Record
@@ -51,10 +46,7 @@ group :test do
   gem 'shoulda-matchers'
   gem 'rails-controller-testing'
   gem 'capybara', '~> 2.13'
-<<<<<<< HEAD
   gem 'factory_bot_rails', '~> 4.0'
-=======
->>>>>>> 7e5a8d5e09942a99f9b0c92305ecebbeca81debf
 end
 group :development do
   # Access an IRB console on exception pages or by using <%= console %> anywhere in the code.
